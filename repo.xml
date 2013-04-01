@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>scosus_goverlay</name>
+		<description>Gentoo overlay of scosu.</description>
+		<homepage>http://github.com/scosu/goverlay/</homepage>
+		<owner>
+			<email>mpargmann@allfex.org</email>
+		</owner>
+		<source type="git">git://github.com/scosu/goverlay.git</source>
+	</repo>
+</repositories>
