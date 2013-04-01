@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>mpargmann@allfex.org</email>
+		<name>Markus Pargmann</name>
+	</maintainer>
+	<use>
+		<flag name="testgui">Build a testgui for hidapi libs</flag>
+	</use>
+</pkgmetadata>
+
