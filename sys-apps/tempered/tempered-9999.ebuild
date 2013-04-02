@@ -18,4 +18,9 @@ IUSE=""
 DEPEND="dev-util/cmake"
 RDEPEND="dev-libs/hidapi"
 
+src_install() {
+	cmake-utils_src_install
+	fowners root:usb /usr/bin/tempered
+	fperms 4550 /usr/bin/tempered
+}
 
